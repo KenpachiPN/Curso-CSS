@@ -1,12 +1,13 @@
 
-* {
-     padding: 0px;
-     margin: 0px;
+*{
+    font-family: 'Stint Ultra Condensed', cursive;
+    font-weight: 100;
 }
 .contact-form {
-    font-size: 25px;
-    background-color: black;
-    width:  50vw;
-    height: 100vh;
+   font-size: 35px;
+}
+.contact-form__p-h2{
+    font-size: 2em;
+    color: red;
 }
 
