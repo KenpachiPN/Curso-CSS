@@ -12,6 +12,8 @@ h2 {
    box-sizing: border-box;
    text-align: center;
    margin: 20px 10px;
+   border-radius: 2em;
+   border: 5px solid #a33;
 }
    
 
