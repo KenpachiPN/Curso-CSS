@@ -11,22 +11,16 @@ body{
 
 
 .caja {
-  display: flex;
-  height: 250px;
-  flex-wrap: wrap;
+  margin: 45px;
+  width: 200px;
+  height: 300px;
+  border: 5px solid red;
+  background-color: pink;
+  cursor: pointer;
 }
 
-.caja div {
-  flex: 1;
-  display: flex;
-  margin: 4px;
-  border: 1px solid red;
-  min-width: 10px;
-}
-
-.caja img {
-  object-fit: cover;
-  width: 100%;
+.caja:active {
+  cursor: row-resize;
 }
 
 
