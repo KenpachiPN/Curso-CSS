@@ -10,24 +10,24 @@ body{
 }
 
 
-form {
-  margin: 100px auto;
-  display: block;
-  background-color: #555;
-  padding: 100px;
-  width: 50%;
+.caja {
+  display: flex;
+  height: 250px;
+  flex-wrap: wrap;
 }
 
-input {
-  padding: 6px;
+.caja div {
+  flex: 1;
+  display: flex;
+  margin: 4px;
+  border: 1px solid red;
+  min-width: 10px;
+}
+
+.caja img {
+  object-fit: cover;
   width: 100%;
 }
-
-input::selection {
-  color: red;
-  background-color: yellow;
-}
-
 
 
 
